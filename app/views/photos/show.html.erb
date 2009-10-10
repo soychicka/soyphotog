@@ -1,0 +1,20 @@
+<p>
+  <b>Image filename:</b>
+  <%=h @photo.image_filename %>
+</p>
+<p>
+  <%= image_tag photo_path(@photo, :jpg) %>
+</p>
+<p>
+  <b>Image width:</b>
+  <%=h @photo.image_width %>
+</p>
+
+<p>
+  <b>Image height:</b>
+  <%=h @photo.image_height %>
+</p>
+
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
