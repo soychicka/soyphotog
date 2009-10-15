@@ -1,5 +1,15 @@
 # app/views/photos/show.jpg.flexi
 # Accessed via http://mysite.com/photos/123.jpg
+
+
 @photo.operate do |image|
-  image.resize '320x240'
+  image.resize '640x480', :crop => true
+  #image.border :size => 10, :color => 'black'
+  image.text 'I like Cheese'
+  image.unsharp_mask  
+  image.shadow
+  image.image_overlay 'public/images/unknownUserHead.png',
+    :alignment => :bottom_right,
+    :offset => '20x20'
+
 end

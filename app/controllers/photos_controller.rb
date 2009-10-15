@@ -1,5 +1,6 @@
 class PhotosController < ApplicationController
-  # GET /photos
+   caches_page :show
+ # GET /photos
   # GET /photos.xml
   def index
     @photos = Photo.all
@@ -68,6 +69,7 @@ end
         format.xml  { render :xml => @photo.errors, :status => :unprocessable_entity }
       end
     end
+    expire_photo(@photo)
   end
 
   # DELETE /photos/1
@@ -80,5 +82,12 @@ end
       format.html { redirect_to(photos_url) }
       format.xml  { head :ok }
     end
+    expire_photo(@photo)
   end
+
+
+ private
+    def expire_photo(photo)
+      expire_page formatted_photo_path(photo, :jpg)
+    end
 end

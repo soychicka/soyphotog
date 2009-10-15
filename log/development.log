@@ -2028,3 +2028,477 @@ Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:25:50) [
   [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
 Rendering photos/show
 Completed in 420ms (View: 414, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:27:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.3ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:27:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 434ms (View: 428, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:28:31) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:28:32) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+
+ActionView::TemplateError (/Users/soychicka/photog/vendor/plugins/fleximage/lib/fleximage/operator/image_overlay.rb:56:in `read': unable to open file `public/images/logo.png' @ png.c/ReadPNGImage/2889) on line #1 of app/views/photos/show.jpg.flexi:
+1: # app/views/photos/show.jpg.flexi
+2: # Accessed via http://mysite.com/photos/123.jpg
+3: @photo.operate do |image|
+4:   image.resize '320x240'
+
+    (eval):2:in `image_overlay'
+    (eval):10:in `render'
+    (eval):8:in `render'
+    app/views/photos/show.jpg.flexi:1:in `_run_flexi_app47views47photos47show46jpg46flexi'
+    app/controllers/photos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:28:42) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:28:42) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+
+ActionView::TemplateError (/Users/soychicka/photog/vendor/plugins/fleximage/lib/fleximage/operator/image_overlay.rb:56:in `read': unable to open file `public/images/logo.png' @ png.c/ReadPNGImage/2889) on line #1 of app/views/photos/show.jpg.flexi:
+1: # app/views/photos/show.jpg.flexi
+2: # Accessed via http://mysite.com/photos/123.jpg
+3: 
+4: 
+
+    (eval):2:in `image_overlay'
+    (eval):8:in `render'
+    (eval):6:in `render'
+    app/views/photos/show.jpg.flexi:1:in `_run_flexi_app47views47photos47show46jpg46flexi'
+    app/controllers/photos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:28:51) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:28:51) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 434ms (View: 428, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:29:11) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:29:11) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 487ms (View: 480, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:29:22) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:29:22) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 502ms (View: 495, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:29:30) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:29:30) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+
+ActionView::TemplateError (/Users/soychicka/photog/vendor/plugins/fleximage/lib/fleximage/operator/image_overlay.rb:56:in `read': unable to open file `public/images/logo.png' @ png.c/ReadPNGImage/2889) on line #1 of app/views/photos/show.jpg.flexi:
+1: # app/views/photos/show.jpg.flexi
+2: # Accessed via http://mysite.com/photos/123.jpg
+3: 
+4: 
+
+    (eval):2:in `image_overlay'
+    (eval):7:in `render'
+    (eval):5:in `render'
+    app/views/photos/show.jpg.flexi:1:in `_run_flexi_app47views47photos47show46jpg46flexi'
+    app/controllers/photos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (43.8ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:29:40) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:29:40) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1364ms (View: 1357, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:30:32) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:30:32) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1089ms (View: 1082, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:30:48) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:30:48) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1088ms (View: 1082, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:30:56) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:30:56) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1020ms (View: 1013, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:31:08) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:31:08) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 909ms (View: 903, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:31:13) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:31:13) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1035ms (View: 1028, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-10-10 12:35:55) [GET]
+  Parameters: {"id"=>"6"}
+
+SyntaxError (/Users/soychicka/photog/app/controllers/photos_controller.rb:88: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-10-10 12:36:18) [GET]
+  Parameters: {"id"=>"6"}
+
+SyntaxError (/Users/soychicka/photog/app/controllers/photos_controller.rb:94: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (83.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-10-10 12:36:25) [GET]
+  Parameters: {"id"=>"6"}
+
+NoMethodError (undefined method `expire_photo' for PhotosController:Class):
+  app/controllers/photos_controller.rb:87
+
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:36:42) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:36:42) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1119ms (View: 1112, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:36:45) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:36:45) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1007ms (View: 1000, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:37:19) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:37:20) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1037ms (View: 1029, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:37:35) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:37:35) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1008ms (View: 1001, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-10-10 12:39:18) [GET]
+  [4;36;1mPhoto Load (0.7ms)[0m   [0;1mSELECT * FROM "photos" [0m
+Rendering template within layouts/photos
+Rendering photos/index
+Completed in 34ms (View: 28, DB: 1) | 200 OK [http://localhost/photos/]
+
+
+Processing PhotosController#new (for 127.0.0.1 at 2009-10-10 12:39:20) [GET]
+Rendering template within layouts/photos
+Rendering photos/new
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/photos/new]
+
+
+Processing PhotosController#create (for 127.0.0.1 at 2009-10-10 12:39:29) [POST]
+  Parameters: {"photo"=>{"image_height"=>"", "image_file_temp"=>"", "image_filename"=>#<File:/var/folders/Vb/VbtUHIF+HAa9D-nLdfTIAE+++TI/-Tmp-/RackMultipart.60377.0>, "image_file_url"=>"", "image_width"=>""}, "commit"=>"Create", "authenticity_token"=>"U5G+V5DZNcDnS8naGWCKPYMFbjEFxtnDySw8r/jMDaw="}
+Rendering template within layouts/photos
+Rendering photos/new
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/photos]
+
+
+Processing PhotosController#new (for 127.0.0.1 at 2009-10-10 12:40:12) [GET]
+Rendering template within layouts/photos
+Rendering photos/new
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/photos/new]
+
+
+Processing PhotosController#create (for 127.0.0.1 at 2009-10-10 12:40:20) [POST]
+  Parameters: {"photo"=>{"image_height"=>"", "image_file"=>#<File:/var/folders/Vb/VbtUHIF+HAa9D-nLdfTIAE+++TI/-Tmp-/RackMultipart.60377.1>, "image_file_temp"=>"", "image_file_url"=>"", "image_width"=>""}, "commit"=>"Create", "authenticity_token"=>"U5G+V5DZNcDnS8naGWCKPYMFbjEFxtnDySw8r/jMDaw="}
+  [4;35;1mPhoto Create (0.4ms)[0m   [0mINSERT INTO "photos" ("image_height", "updated_at", "image_filename", "image_width", "created_at") VALUES(NULL, '2009-10-10 19:40:20', 'ajax-fig1_small.png', NULL, '2009-10-10 19:40:20')[0m
+Redirected to http://localhost:3003/photos/7
+Completed in 140ms (DB: 0) | 302 Found [http://localhost/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:40:20) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 7) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/7]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:40:20) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 7) [0m
+Rendering photos/show
+Completed in 487ms (View: 480, DB: 0) | 200 OK [http://localhost/photos/7.jpg]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-10-10 12:40:42) [GET]
+  [4;36;1mPhoto Load (0.7ms)[0m   [0;1mSELECT * FROM "photos" [0m
+Rendering template within layouts/photos
+Rendering photos/index
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/photos]
+
+
+Processing PhotosController#new (for 127.0.0.1 at 2009-10-10 12:40:43) [GET]
+Rendering template within layouts/photos
+Rendering photos/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/photos/new]
+
+
+Processing PhotosController#create (for 127.0.0.1 at 2009-10-10 12:45:42) [POST]
+  Parameters: {"photo"=>{"image_height"=>"", "image_file"=>#<File:/var/folders/Vb/VbtUHIF+HAa9D-nLdfTIAE+++TI/-Tmp-/RackMultipart.60377.0>, "image_file_temp"=>"", "image_file_url"=>"", "image_width"=>""}, "commit"=>"Create", "authenticity_token"=>"U5G+V5DZNcDnS8naGWCKPYMFbjEFxtnDySw8r/jMDaw="}
+  [4;35;1mPhoto Create (56.8ms)[0m   [0mINSERT INTO "photos" ("image_height", "updated_at", "image_filename", "image_width", "created_at") VALUES(NULL, '2009-10-10 19:45:42', '2008_04_01-Okonomiyaki.jpg', NULL, '2009-10-10 19:45:42')[0m
+Redirected to http://localhost:3003/photos/8
+Completed in 262ms (DB: 57) | 302 Found [http://localhost/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:45:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 8) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/8]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:45:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 8) [0m
+Rendering photos/show
+Completed in 488ms (View: 478, DB: 0) | 200 OK [http://localhost/photos/8.jpg]
+
+
+Processing PhotosController#new (for 127.0.0.1 at 2009-10-10 12:45:56) [GET]
+Rendering template within layouts/photos
+Rendering photos/new
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/photos/new]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-10-10 12:45:57) [GET]
+  [4;36;1mPhoto Load (0.9ms)[0m   [0;1mSELECT * FROM "photos" [0m
+Rendering template within layouts/photos
+Rendering photos/index
+Completed in 37ms (View: 31, DB: 1) | 200 OK [http://localhost/photos/]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 12:45:59) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/photos/6]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 12:45:59) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 6) [0m
+Rendering photos/show
+Completed in 1058ms (View: 1053, DB: 0) | 200 OK [http://localhost/photos/6.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-10 16:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/photo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-10-10 16:39:37) [GET]
+  [4;36;1mPhoto Load (1.1ms)[0m   [0;1mSELECT * FROM "photos" [0m
+Rendering template within layouts/photos
+Rendering photos/index
+Completed in 80ms (View: 73, DB: 1) | 200 OK [http://localhost/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-10-10 16:39:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPhoto Load (0.2ms)[0m   [0mSELECT * FROM "photos" WHERE ("photos"."id" = 8) [0m
+Rendering template within layouts/photos
+Rendering photos/show
+Completed in 67ms (View: 7, DB: 0) | 200 OK [http://localhost/photos/8]
+
+
+Processing PhotosController#show to jpg (for 127.0.0.1 at 2009-10-10 16:39:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPhoto Load (0.2ms)[0m   [0;1mSELECT * FROM "photos" WHERE ("photos"."id" = 8) [0m
+Rendering photos/show
+Completed in 1073ms (View: 1067, DB: 0) | 200 OK [http://localhost/photos/8.jpg]
